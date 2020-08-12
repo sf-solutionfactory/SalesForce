@@ -101,6 +101,8 @@ namespace SFJob
                     List<string> textoLog = Contenido(contenidoLog);
                     List<string> correctos = CorrectosLog(contenidoLog);
                     log.CreateEmptyDirectory(config.carpeta_log, "log" + fechaHora + ".txt", textoLog);
+                    List<string> retLog = client.RetornaLista();
+                    log.CreateEmptyDirectory(config.carpeta_log+"\\SAP_IN\\", "log" + fechaHora + ".txt", retLog);
                     archivos = log.LeeArchivos(config.carpeta_lectura, "", true);
                     log.MueveArchivos(config.carpeta_correctos + fechaHora, archivos, correctos);
                 });
