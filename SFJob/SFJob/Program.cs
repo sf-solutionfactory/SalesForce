@@ -63,53 +63,77 @@ namespace SFJob
             int hora = Convert.ToInt32(fecha.ToString("%H"));
             int minuto = Convert.ToInt32(fecha.ToString("%m"));
             config.job_intervalo *= 60;
-            jsonLogin = client.Login(config.clientId, config.clientSecret, config.username,  config.password, config.token, config.url_login);
+            jsonLogin = client.Login(config.clientId, config.clientSecret, config.username, config.password, config.token, config.url_login);
             var values = JsonConvert.DeserializeObject<Dictionary<string, string>>(jsonLogin);
             autorizacionToken = values["access_token"];
             tipoToken = values["token_type"] + " ";
-            if (!ejecutando)
+            bool ban = true;
+            if (ban)
             {
-                Job.IntervalInMinutes(hora, minuto, config.job_intervalo, () =>
+                if (!ejecutando)
                 {
-                    archivos = log.LeeArchivos(config.carpeta_lectura, "I", false);
-                    ins = client.InsertaRegistros(archivos, tipoToken, autorizacionToken, config.url_clientes, config.url_viajes, config.url_facturas, config.errores);
-                });
-                fecha = fecha.AddMinutes(5);
-                hora = Convert.ToInt32(fecha.ToString("%H"));
-                minuto = Convert.ToInt32(fecha.ToString("%m"));
-                Job.IntervalInMinutes(hora, minuto, config.job_intervalo, () =>
-                {
-                    archivos = log.LeeArchivos(config.carpeta_lectura, "U", false);
-                    act = client.ActualizaRegistros(archivos, tipoToken, autorizacionToken, config.url_clientes, config.url_viajes, config.url_facturas, config.errores);
-                });
-                fecha = fecha.AddMinutes(5);
-                hora = Convert.ToInt32(fecha.ToString("%H"));
-                minuto = Convert.ToInt32(fecha.ToString("%m"));
-                Job.IntervalInMinutes(hora, minuto, config.job_intervalo, () =>
-                {
-                    archivos = log.LeeArchivos(config.carpeta_lectura, "C", false);
-                    eli = client.CancelaRegistros(archivos, tipoToken, autorizacionToken, config.url_viajes, config.url_facturas, config.errores);
-                });
-                fecha = fecha.AddMinutes(5);
-                hora = Convert.ToInt32(fecha.ToString("%H"));
-                minuto = Convert.ToInt32(fecha.ToString("%m"));
-                Job.IntervalInMinutes(hora, minuto, config.job_intervalo, () =>
-                {
-                    string fechaHora = DateTime.Now.ToString("dd-MM-yyyy H-mm-00");
-                    contenidoLog.Clear();
-                    contenidoLog = client.MuestraLista();
-                    List<string> textoLog = Contenido(contenidoLog);
-                    List<string> correctos = CorrectosLog(contenidoLog);
-                    log.CreateEmptyDirectory(config.carpeta_log, "log" + fechaHora + ".txt", textoLog);
-                    archivos = log.LeeArchivos(config.carpeta_lectura, "", true);
-                    log.MueveArchivos(config.carpeta_correctos + fechaHora, archivos, correctos);
-                });
+                    Job.IntervalInMinutes(hora, minuto, config.job_intervalo, () =>
+                    {
+                        archivos = log.LeeArchivos(config.carpeta_lectura, "I", false);
+                        ins = client.InsertaRegistros(archivos, tipoToken, autorizacionToken, config.url_clientes, config.url_viajes, config.url_facturas, config.errores);
+                    });
+                    fecha = fecha.AddMinutes(5);
+                    hora = Convert.ToInt32(fecha.ToString("%H"));
+                    minuto = Convert.ToInt32(fecha.ToString("%m"));
+                    Job.IntervalInMinutes(hora, minuto, config.job_intervalo, () =>
+                    {
+                        archivos = log.LeeArchivos(config.carpeta_lectura, "U", false);
+                        act = client.ActualizaRegistros(archivos, tipoToken, autorizacionToken, config.url_clientes, config.url_viajes, config.url_facturas, config.errores);
+                    });
+                    fecha = fecha.AddMinutes(5);
+                    hora = Convert.ToInt32(fecha.ToString("%H"));
+                    minuto = Convert.ToInt32(fecha.ToString("%m"));
+                    Job.IntervalInMinutes(hora, minuto, config.job_intervalo, () =>
+                    {
+                        archivos = log.LeeArchivos(config.carpeta_lectura, "C", false);
+                        eli = client.CancelaRegistros(archivos, tipoToken, autorizacionToken, config.url_viajes, config.url_facturas, config.errores);
+                    });
+                    fecha = fecha.AddMinutes(5);
+                    hora = Convert.ToInt32(fecha.ToString("%H"));
+                    minuto = Convert.ToInt32(fecha.ToString("%m"));
+                    Job.IntervalInMinutes(hora, minuto, config.job_intervalo, () =>
+                    {
+                        string fechaHora = DateTime.Now.ToString("dd-MM-yyyy H-mm-00");
+                        contenidoLog.Clear();
+                        contenidoLog = client.MuestraLista();
+                        List<string> textoLog = Contenido(contenidoLog);
+                        List<string> correctos = CorrectosLog(contenidoLog);
+                        log.CreateEmptyDirectory(config.carpeta_log, "log" + fechaHora + ".txt", textoLog);
+                        archivos = log.LeeArchivos(config.carpeta_lectura, "", true);
+                        log.MueveArchivos(config.carpeta_correctos + fechaHora, archivos, correctos);
+                    });
+                }
+            }
+            else
+            {
+                archivos = log.LeeArchivos(config.carpeta_lectura, "I", false);
+                ins = client.InsertaRegistros(archivos, tipoToken, autorizacionToken, config.url_clientes, config.url_viajes, config.url_facturas, config.errores);
+
+                archivos = log.LeeArchivos(config.carpeta_lectura, "U", false);
+                act = client.ActualizaRegistros(archivos, tipoToken, autorizacionToken, config.url_clientes, config.url_viajes, config.url_facturas, config.errores);
+
+                archivos = log.LeeArchivos(config.carpeta_lectura, "C", false);
+                eli = client.CancelaRegistros(archivos, tipoToken, autorizacionToken, config.url_viajes, config.url_facturas, config.errores);
+
+                string fechaHora = DateTime.Now.ToString("dd-MM-yyyy H-mm-00");
+                contenidoLog.Clear();
+                contenidoLog = client.MuestraLista();
+                List<string> textoLog = Contenido(contenidoLog);
+                List<string> correctos = CorrectosLog(contenidoLog);
+                log.CreateEmptyDirectory(config.carpeta_log, "log" + fechaHora + ".txt", textoLog);
+                archivos = log.LeeArchivos(config.carpeta_lectura, "", true);
+                log.MueveArchivos(config.carpeta_correctos + fechaHora, archivos, correctos);
             }
         }
         static List<string> Contenido(List<string[]> log)
         {
             List<string> contenidoLog = new List<string>();
-            foreach(string[] item in log)
+            foreach (string[] item in log)
             {
                 contenidoLog.Add(item[1]);
             }

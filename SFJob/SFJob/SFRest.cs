@@ -12,6 +12,7 @@ namespace SFJob
     class SFRest
     {
         private readonly List<string[]> correctos = new List<string[]>();
+        private readonly List<string[]> erroneos = new List<string[]>();
         static SFRest()
         {
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11;
@@ -25,11 +26,16 @@ namespace SFJob
                 {
                     items.Add(item);
                 }
+                foreach (string[] item in erroneos)
+                {
+                    items.Add(item);
+                }
             }
             catch (Exception) { }
             finally 
             { 
                 correctos.Clear(); 
+                erroneos.Clear();
             }
             return items;
         }
@@ -173,11 +179,19 @@ namespace SFJob
             {
                 HttpResponseMessage apiCallResponse = await apiCallClient.SendAsync(apiRequest);
                 string requestResponse = await apiCallResponse.Content.ReadAsStringAsync();
+                //string requestResponse = "oiweuroiweurowi JSON_PARSER_ERROR";
                 foreach (string error in errores)
                 {
                     if (requestResponse.Contains(error))
                     {
                         respuesta[0] = "ERROR_" + archivo;
+                        respuesta[1] = archivo + "\n" + requestResponse;
+                        erroneos.Add(respuesta);
+                        Console.WriteLine("|********************************************************|");
+                        Console.WriteLine(archivo);
+                        Console.WriteLine(requestResponse);
+                        Console.WriteLine("\n");
+
                         return;
                     }
                     else if (i == rows)
@@ -217,6 +231,8 @@ namespace SFJob
                     if (requestResponse.Contains(error))
                     {
                         respuesta[0] = "ERROR_" + archivo;
+                        respuesta[1] = archivo + "\n" + requestResponse;
+                        erroneos.Add(respuesta);
                         return;
                     }
                     else if (i == rows)
