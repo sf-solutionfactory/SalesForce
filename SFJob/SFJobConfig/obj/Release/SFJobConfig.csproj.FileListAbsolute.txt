@@ -1,0 +1,28 @@
+D:\Downloads\SFJob\SFJobConfig\bin\Release\SFJobConfig.exe.config
+D:\Downloads\SFJob\SFJobConfig\bin\Release\SFJobConfig.exe
+D:\Downloads\SFJob\SFJobConfig\bin\Release\SFJobConfig.pdb
+D:\Downloads\SFJob\SFJobConfig\obj\Release\SFJobConfig.csprojAssemblyReference.cache
+D:\Downloads\SFJob\SFJobConfig\obj\Release\SFJobConfig.Form1.resources
+D:\Downloads\SFJob\SFJobConfig\obj\Release\SFJobConfig.Properties.Resources.resources
+D:\Downloads\SFJob\SFJobConfig\obj\Release\SFJobConfig.csproj.GenerateResource.cache
+D:\Downloads\SFJob\SFJobConfig\obj\Release\SFJobConfig.exe
+D:\Downloads\SFJob\SFJobConfig\obj\Release\SFJobConfig.pdb
+D:\Documents\GitHub\SFJob\SFJobConfig\bin\Release\SFJobConfig.exe.config
+D:\Documents\GitHub\SFJob\SFJobConfig\bin\Release\SFJobConfig.exe
+D:\Documents\GitHub\SFJob\SFJobConfig\bin\Release\SFJobConfig.pdb
+D:\Documents\GitHub\SFJob\SFJobConfig\obj\Release\SFJobConfig.csprojAssemblyReference.cache
+D:\Documents\GitHub\SFJob\SFJobConfig\obj\Release\SFJobConfig.Form1.resources
+D:\Documents\GitHub\SFJob\SFJobConfig\obj\Release\SFJobConfig.Properties.Resources.resources
+D:\Documents\GitHub\SFJob\SFJobConfig\obj\Release\SFJobConfig.csproj.GenerateResource.cache
+D:\Documents\GitHub\SFJob\SFJobConfig\obj\Release\SFJobConfig.exe
+D:\Documents\GitHub\SFJob\SFJobConfig\obj\Release\SFJobConfig.pdb
+D:\Documentos\Solution Factory\SFJob-master\SFJobConfig\bin\Release\SFJobConfig.exe.config
+D:\Documentos\Solution Factory\SFJob-master\SFJobConfig\bin\Release\SFJobConfig.exe
+D:\Documentos\Solution Factory\SFJob-master\SFJobConfig\bin\Release\SFJobConfig.pdb
+D:\Documentos\Solution Factory\SFJob-master\SFJobConfig\obj\Release\SFJobConfig.csprojAssemblyReference.cache
+D:\Documentos\Solution Factory\SFJob-master\SFJobConfig\obj\Release\SFJobConfig.Form1.resources
+D:\Documentos\Solution Factory\SFJob-master\SFJobConfig\obj\Release\SFJobConfig.Properties.Resources.resources
+D:\Documentos\Solution Factory\SFJob-master\SFJobConfig\obj\Release\SFJobConfig.csproj.GenerateResource.cache
+D:\Documentos\Solution Factory\SFJob-master\SFJobConfig\obj\Release\SFJobConfig.csproj.CoreCompileInputs.cache
+D:\Documentos\Solution Factory\SFJob-master\SFJobConfig\obj\Release\SFJobConfig.exe
+D:\Documentos\Solution Factory\SFJob-master\SFJobConfig\obj\Release\SFJobConfig.pdb

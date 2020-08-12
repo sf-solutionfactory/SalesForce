@@ -1,0 +1,35 @@
+D:\Downloads\SFJob\SFJob\bin\Release\SFJob.exe.config
+D:\Downloads\SFJob\SFJob\bin\Release\SFJob.exe
+D:\Downloads\SFJob\SFJob\bin\Release\SFJob.pdb
+D:\Downloads\SFJob\SFJob\bin\Release\Newtonsoft.Json.dll
+D:\Downloads\SFJob\SFJob\bin\Release\System.Net.Http.Extensions.dll
+D:\Downloads\SFJob\SFJob\bin\Release\System.Net.Http.Formatting.dll
+D:\Downloads\SFJob\SFJob\bin\Release\System.Net.Http.Primitives.dll
+D:\Downloads\SFJob\SFJob\bin\Release\Newtonsoft.Json.xml
+D:\Downloads\SFJob\SFJob\obj\Release\SFJob.csproj.CopyComplete
+D:\Downloads\SFJob\SFJob\obj\Release\SFJob.exe
+D:\Downloads\SFJob\SFJob\obj\Release\SFJob.pdb
+D:\Documents\GitHub\SFJob\SFJob\bin\Release\SFJob.exe.config
+D:\Documents\GitHub\SFJob\SFJob\bin\Release\SFJob.exe
+D:\Documents\GitHub\SFJob\SFJob\bin\Release\SFJob.pdb
+D:\Documents\GitHub\SFJob\SFJob\bin\Release\Newtonsoft.Json.dll
+D:\Documents\GitHub\SFJob\SFJob\bin\Release\System.Net.Http.Extensions.dll
+D:\Documents\GitHub\SFJob\SFJob\bin\Release\System.Net.Http.Formatting.dll
+D:\Documents\GitHub\SFJob\SFJob\bin\Release\System.Net.Http.Primitives.dll
+D:\Documents\GitHub\SFJob\SFJob\bin\Release\Newtonsoft.Json.xml
+D:\Documents\GitHub\SFJob\SFJob\obj\Release\SFJob.csproj.CopyComplete
+D:\Documents\GitHub\SFJob\SFJob\obj\Release\SFJob.exe
+D:\Documents\GitHub\SFJob\SFJob\obj\Release\SFJob.pdb
+D:\Documentos\Solution Factory\SFJob-master\SFJob\bin\Release\SFJob.exe.config
+D:\Documentos\Solution Factory\SFJob-master\SFJob\bin\Release\SFJob.exe
+D:\Documentos\Solution Factory\SFJob-master\SFJob\bin\Release\SFJob.pdb
+D:\Documentos\Solution Factory\SFJob-master\SFJob\bin\Release\Newtonsoft.Json.dll
+D:\Documentos\Solution Factory\SFJob-master\SFJob\bin\Release\System.Net.Http.Extensions.dll
+D:\Documentos\Solution Factory\SFJob-master\SFJob\bin\Release\System.Net.Http.Formatting.dll
+D:\Documentos\Solution Factory\SFJob-master\SFJob\bin\Release\System.Net.Http.Primitives.dll
+D:\Documentos\Solution Factory\SFJob-master\SFJob\bin\Release\Newtonsoft.Json.xml
+D:\Documentos\Solution Factory\SFJob-master\SFJob\obj\Release\SFJob.csprojAssemblyReference.cache
+D:\Documentos\Solution Factory\SFJob-master\SFJob\obj\Release\SFJob.csproj.CoreCompileInputs.cache
+D:\Documentos\Solution Factory\SFJob-master\SFJob\obj\Release\SFJob.csproj.CopyComplete
+D:\Documentos\Solution Factory\SFJob-master\SFJob\obj\Release\SFJob.exe
+D:\Documentos\Solution Factory\SFJob-master\SFJob\obj\Release\SFJob.pdb

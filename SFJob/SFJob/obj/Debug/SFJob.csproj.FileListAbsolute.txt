@@ -1,0 +1,48 @@
+C:\Users\EQUIPO\source\repos\SFJob\SFJob\bin\Debug\SFJob.exe.config
+C:\Users\EQUIPO\source\repos\SFJob\SFJob\bin\Debug\SFJob.exe
+C:\Users\EQUIPO\source\repos\SFJob\SFJob\bin\Debug\SFJob.pdb
+C:\Users\EQUIPO\source\repos\SFJob\SFJob\obj\Debug\SFJob.csproj.CoreCompileInputs.cache
+C:\Users\EQUIPO\source\repos\SFJob\SFJob\obj\Debug\SFJob.exe
+C:\Users\EQUIPO\source\repos\SFJob\SFJob\obj\Debug\SFJob.pdb
+C:\Users\EQUIPO\source\repos\SFJob\SFJob\bin\Debug\Newtonsoft.Json.dll
+C:\Users\EQUIPO\source\repos\SFJob\SFJob\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\EQUIPO\source\repos\SFJob\SFJob\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\EQUIPO\source\repos\SFJob\SFJob\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\EQUIPO\source\repos\SFJob\SFJob\bin\Debug\Newtonsoft.Json.xml
+C:\Users\EQUIPO\source\repos\SFJob\SFJob\obj\Debug\SFJob.csproj.CopyComplete
+C:\Users\EQUIPO\source\repos\SFJob\SFJob\obj\Debug\SFJob.csprojAssemblyReference.cache
+D:\Downloads\SFJob\SFJob\bin\Debug\SFJob.exe.config
+D:\Downloads\SFJob\SFJob\bin\Debug\SFJob.exe
+D:\Downloads\SFJob\SFJob\bin\Debug\SFJob.pdb
+D:\Downloads\SFJob\SFJob\bin\Debug\Newtonsoft.Json.dll
+D:\Downloads\SFJob\SFJob\bin\Debug\System.Net.Http.Extensions.dll
+D:\Downloads\SFJob\SFJob\bin\Debug\System.Net.Http.Formatting.dll
+D:\Downloads\SFJob\SFJob\bin\Debug\System.Net.Http.Primitives.dll
+D:\Downloads\SFJob\SFJob\bin\Debug\Newtonsoft.Json.xml
+D:\Downloads\SFJob\SFJob\obj\Debug\SFJob.csproj.CopyComplete
+D:\Downloads\SFJob\SFJob\obj\Debug\SFJob.exe
+D:\Downloads\SFJob\SFJob\obj\Debug\SFJob.pdb
+D:\Documents\GitHub\SFJob\SFJob\bin\Debug\SFJob.exe.config
+D:\Documents\GitHub\SFJob\SFJob\bin\Debug\SFJob.exe
+D:\Documents\GitHub\SFJob\SFJob\bin\Debug\SFJob.pdb
+D:\Documents\GitHub\SFJob\SFJob\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\GitHub\SFJob\SFJob\bin\Debug\System.Net.Http.Extensions.dll
+D:\Documents\GitHub\SFJob\SFJob\bin\Debug\System.Net.Http.Formatting.dll
+D:\Documents\GitHub\SFJob\SFJob\bin\Debug\System.Net.Http.Primitives.dll
+D:\Documents\GitHub\SFJob\SFJob\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\GitHub\SFJob\SFJob\obj\Debug\SFJob.csproj.CopyComplete
+D:\Documents\GitHub\SFJob\SFJob\obj\Debug\SFJob.exe
+D:\Documents\GitHub\SFJob\SFJob\obj\Debug\SFJob.pdb
+D:\Documents\GitHub\SFJob\SFJob\obj\Debug\SFJob.csprojAssemblyReference.cache
+D:\Documentos\Solution Factory\SFJob-master\SFJob\bin\Debug\SFJob.exe.config
+D:\Documentos\Solution Factory\SFJob-master\SFJob\bin\Debug\SFJob.exe
+D:\Documentos\Solution Factory\SFJob-master\SFJob\bin\Debug\SFJob.pdb
+D:\Documentos\Solution Factory\SFJob-master\SFJob\bin\Debug\Newtonsoft.Json.dll
+D:\Documentos\Solution Factory\SFJob-master\SFJob\bin\Debug\System.Net.Http.Extensions.dll
+D:\Documentos\Solution Factory\SFJob-master\SFJob\bin\Debug\System.Net.Http.Formatting.dll
+D:\Documentos\Solution Factory\SFJob-master\SFJob\bin\Debug\System.Net.Http.Primitives.dll
+D:\Documentos\Solution Factory\SFJob-master\SFJob\bin\Debug\Newtonsoft.Json.xml
+D:\Documentos\Solution Factory\SFJob-master\SFJob\obj\Debug\SFJob.csproj.CoreCompileInputs.cache
+D:\Documentos\Solution Factory\SFJob-master\SFJob\obj\Debug\SFJob.csproj.CopyComplete
+D:\Documentos\Solution Factory\SFJob-master\SFJob\obj\Debug\SFJob.exe
+D:\Documentos\Solution Factory\SFJob-master\SFJob\obj\Debug\SFJob.pdb
